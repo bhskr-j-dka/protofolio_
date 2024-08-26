@@ -1,0 +1,19 @@
+.typewriter {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    color: #fff; /* Adjust text color as needed */
+    font-weight: bold; /* Optional: Make text bold */
+    white-space: nowrap; /* Prevent text wrapping */
+    border-right: 2px solid #fff; /* Cursor effect */
+    display: inline-block;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #fff;
+    }
+  }
+  
